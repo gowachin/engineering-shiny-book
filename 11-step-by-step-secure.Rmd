@@ -783,7 +783,7 @@ And also, how can we be sure that, working as a team, we will be able to work to
 
 From one package version to another, functions and behaviors change.
 Most of the time, new version means new functions, and new features.
-But from time to time, a new version means breaking change**s. Monitoring these changes and how they potentially break our code is an hard task: be it because checking versions of packages on various machines can take time**, or because debugging these bugs in your application logs is not straightforward.
+But from time to time, a new version means breaking changes. **Monitoring these changes and how they potentially break our code is an hard task: be it because checking versions of packages on various machines can take time**, or because debugging these bugs in your application logs is not straightforward.
 And of course, the moment when we discover the error might not be the perfect time for us, as we might not have enough free time on our calendar to debug the application which has stopped running...
 
 Let's take for example this traceback from the logs of an application we sent one day on a Shiny Server:
